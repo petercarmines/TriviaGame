@@ -1,3 +1,50 @@
-.active {
-    background-color: green;
+#gametitle {
+    text-align: center;
 }
+
+.jumbotron {
+    margin-bottom: 18px;
+    padding: 35px;
+}
+
+#question {
+    text-align: center;
+}
+
+#a, #b, #c {
+    text-align: center;
+}
+
+#start {
+    text-align: center;
+}
+
+#buttondiv {
+    text-align: center;
+}
+
+#timer {
+    font-size: 32px;
+}
+
+button {
+    width: 20%;
+}
+
+#question {
+    font-size: 38px;
+}
+
+h2 {
+    line-height: 50px;
+}
+
+#message {
+    text-align: center;
+}
+
+#right, #wrong {
+    font-size: 36px;
+    text-align: center;
+}
+

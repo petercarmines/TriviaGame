@@ -3,56 +3,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Pete's Trivia</title>
+
+    <title>Document</title>
 </head>
 <body>
-    
-    <header>
-        <h1>Pete's Trivia</h1>
-    </header>
 
-    <p>What is my name?</p>
 
-    
 
-    <form>
-    <input type="radio"/> A) Jeff
-    <input id="correct1" type="radio"/> B) Pete
-    <input type="radio"/> C) Matt
-    <input type="radio"/> D) Bob
-    <input type="radio"/> E) Randy
-    
-        <br>
+<header class="jumbotron">
+    <h1 id="gametitle">U.S. Presidential Trivia</h1>
+</header>
 
-        <form>
-                <input type="radio"/> A) Jeff
-                <input id="correct2" type="radio"/> B) Pete
-                <input type="radio"/> C) Matt
-                <input type="radio"/> D) Bob
-                <input type="radio"/> E) Randy
-                
+
+<div id="maingame" class="container">
+    <div class="row">
+    <div class="col-sm-12">
+            <div id="buttondiv">
+                    <h1 id="timer"></h1>
+                    <button id="start">Click to Start</button>
+                    </div>
                     <br>
+    </div>
+    </div>
 
-    <input type="submit" id="submit"></button>
+    <div class="row">
+    <div class="col-sm-12">
 
-</form>
+            
+    <div id="question">
+        
+    </div>
+</div>
+</div>
 
-<div id="timer"></div>
-<div id="wins"></div>
+    <div class="row">
+    <div class="col-sm-12">
+        <br>
+    <h2 id="a" name="a"></h2>
+    <h2 id="b" name="b"></h2>
+    <h2 id="c" name="c"></h2>
+    
+
+    <h1 id="message"></h1>
+    <br>
+    <div id="right"></div> 
+    <div id="wrong"></div>
+</div>
+</div>
+</div>
+
+    
 
 
 
-
-
-
-
-
-
-
-
+    
 </body>
 </html>
