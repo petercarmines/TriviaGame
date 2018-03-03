@@ -1,5 +1,13 @@
+body {
+    background-image: url(../images/flags.png);
+    background-size: 50%;
+}
+
 #gametitle {
     text-align: center;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 48px;
+    font-weight: 500;
 }
 
 .jumbotron {
@@ -11,24 +19,35 @@
     text-align: center;
 }
 
-#a, #b, #c {
+#a, #b, #c, #d {
     text-align: center;
+}
+
+#a:hover, #b:hover, 
+#c:hover, #d:hover {
+    background-color: rgb(207, 57, 3);
+    cursor: pointer; 
 }
 
 #start {
     text-align: center;
-}
-
-#buttondiv {
-    text-align: center;
-}
-
-#timer {
-    font-size: 32px;
+    font-weight: 600;
 }
 
 button {
-    width: 20%;
+    height: 15%;
+    width: 40%;
+    background-color:rgb(194, 194, 194); 
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(128, 128, 128); 
+}
+
+#timer {
+    text-align: center;
+    font-size: 32px;
 }
 
 #question {
@@ -36,7 +55,7 @@ button {
 }
 
 h2 {
-    line-height: 50px;
+    line-height: 60px;
 }
 
 #message {
@@ -48,3 +67,14 @@ h2 {
     text-align: center;
 }
 
+#correct {
+    text-align: center;
+    font-size: 36px;
+}
+
+.card {
+    color: white;
+    background-color: #08086b;
+    width: 800px;
+    height: 500px;
+}
