@@ -7,5 +7,5 @@ The game will let you know how many you answered correctly at the end.
 
 ![screenshot of trivia](./assets/images/trivia.PNG)
 
-[Click here to play!](https://www.petercarmines.github.io/TriviaGame)
+<span style="font-size:larger;">[Click here to play!](https://www.petercarmines.github.io/TriviaGame)</span>
 
